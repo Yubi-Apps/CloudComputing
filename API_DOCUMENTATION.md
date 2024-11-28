@@ -125,8 +125,3 @@ Mendapatkan detail artikel spesifik
   * `tanggal_publikasi`: Tanggal artikel dibuat
 
 ---
-
-**Catatan Keamanan:**
-- Semua endpoint yang memerlukan autentikasi harus menyertakan JWT token di header Authorization
-- Gunakan HTTPS untuk semua komunikasi
-- Implementasikan rate limiting untuk endpoint sensitif
