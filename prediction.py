@@ -69,14 +69,14 @@ model = tf.keras.models.load_model('model.h5')
 
 # Example class names (replace with actual class names from training)
 class_names = [
-    'SL17 Phthorimaea operculella (Zeller)', 
-    'SL15 Myzus persicae (Sulzer)', 
     'SL01 Agrotis ipsilon (Hufnagel)', 
-    'SL05 Bemisia tabaci (Gennadius)', 
-    'SL10 Epilachna vigintioctopunctata (Fabricius)', 
+    'SL02 Amrasca devastans (Distant)',
     'SL03 Aphis gossypii Glover', 
+    'SL05 Bemisia tabaci (Gennadius)', 
     'SL06 Brachytrypes portentosus Lichtenstein', 
-    'SL02 Amrasca devastans (Distant)'
+    'SL10 Epilachna vigintioctopunctata (Fabricius)', 
+    'SL15 Myzus persicae (Sulzer)', 
+    'SL17 Phthorimaea operculella (Zeller)'
 ]
 
 # Example image dimensions
