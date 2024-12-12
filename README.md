@@ -25,9 +25,12 @@ Follow these steps to deploy the model and API in Cloud Run:
 2. for the model.h5 file, because the size is quite large, we upload it using google drive
    https://drive.google.com/file/d/1hoQ4Spe5a3aP5SHQNX8UTVzZfLfbv8A-/view?usp=drive_link
 4. if everything is in one folder, you can run the following command via CLI
-- gcloud builds .....
-- gcloud run deploy .....
-
+```bash
+- gcloud builds submit --tag gcr.io/[PROJECT_ID]/name
+```
+```bash
+- gcloud run deploy name --image gcr.io/[PROJECT_ID]/name --platform managed --region asia-southeast2 --allow-unauthenticated
+```
 ### Cloud Architectur
 <img src="https://drive.google.com/uc?export=view&id=1cQDLkwkhwmWPQhWdv0AAGWR_iqI7-5VY" alt="4" width="auto" height="300">
 
