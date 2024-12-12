@@ -34,6 +34,9 @@ Ikuti langkah-langkah berikut untuk menjalankan deploy model dan API di Cloud Ru
 - gcloud builds submit --tag gcr.io/yubi-flask/yubi
 - gcloud run deploy yubi --image gcr.io/yubi-flask/yubi --platform managed --region asia-southeast2 --allow-unauthenticated
 
+## 🏁 Cloud Architectur
+<img src="https://drive.google.com/file/d/1cQDLkwkhwmWPQhWdv0AAGWR_iqI7-5VY/view?usp=drive_link">
+
 1. Clone repository:
    ```bash
    git clone https://github.com/username/repository-name.git
