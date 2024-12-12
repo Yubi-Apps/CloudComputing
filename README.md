@@ -25,8 +25,8 @@ Follow these steps to deploy the model and API in Cloud Run:
 2. for the model.h5 file, because the size is quite large, we upload it using google drive
    https://drive.google.com/file/d/1hoQ4Spe5a3aP5SHQNX8UTVzZfLfbv8A-/view?usp=drive_link
 4. if everything is in one folder, you can run the following command via CLI
-- gcloud builds submit --tag gcr.io/yubi-flask/yubi
-- gcloud run deploy yubi --image gcr.io/yubi-flask/yubi --platform managed --region asia-southeast2 --allow-unauthenticated
+- gcloud builds .....
+- gcloud run deploy .....
 
 ### Cloud Architectur
 <img src="https://drive.google.com/uc?export=view&id=1cQDLkwkhwmWPQhWdv0AAGWR_iqI7-5VY" alt="4" width="auto" height="300">
@@ -35,6 +35,3 @@ Follow these steps to deploy the model and API in Cloud Run:
 <img src="https://drive.google.com/uc?export=view&id=1StBYjmQ2IdpBlHMvN3o7uw0mhVZIXf0D" alt="4" width="auto" height="300">
 
 
-1. Clone repository:
-   ```bash
-   git clone https://github.com/username/repository-name.git
