@@ -9,6 +9,7 @@
 
 - [Member Team](#-member-team)
 - [Deployment](#-deployment)
+- [API Documentation](#-API-Documentation)
 
 ---
 
