@@ -15,8 +15,8 @@
 
 ### 🎯 Member Team
 
-- **1**: Moch. Arif Samsul Rizal
-- **2**: Michael Kondengis
+- **1.** Moch. Arif Samsul Rizal - C202B4KY2520
+- **2.** Michael Kondengis - C208B4KY2485
 
 ---
 
