@@ -9,7 +9,7 @@
 
 - [Member Team](#-member-team)
 - [Deployment](#-deployment)
-- [API Documentation](#-API-Documentation)
+- [API Documentation](#-api-documentation)
 
 ---
 
@@ -40,7 +40,9 @@ Follow these steps to deploy the model and API in Cloud Run:
 <img src="https://drive.google.com/uc?export=view&id=1StBYjmQ2IdpBlHMvN3o7uw0mhVZIXf0D" alt="4" width="auto" height="300">
 
 ---
-## API Documentation
+
+#### 🏁 API Documentation
+
 ## Pest Prediction
 
 ### `POST /api/getPredictionOutput`
