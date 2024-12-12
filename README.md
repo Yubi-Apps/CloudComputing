@@ -37,6 +37,10 @@ Ikuti langkah-langkah berikut untuk menjalankan deploy model dan API di Cloud Ru
 ### Cloud Architectur
 <img src="https://drive.google.com/uc?export=view&id=1cQDLkwkhwmWPQhWdv0AAGWR_iqI7-5VY" alt="4" width="auto" height="300">
 
+### Cost CC
+<img src="https://drive.google.com/uc?export=view&id=1StBYjmQ2IdpBlHMvN3o7uw0mhVZIXf0D" alt="4" width="auto" height="300">
+
+
 1. Clone repository:
    ```bash
    git clone https://github.com/username/repository-name.git
