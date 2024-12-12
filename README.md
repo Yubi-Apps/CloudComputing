@@ -18,8 +18,8 @@
 Ini merupakan Repositori dari tim Cloud Computing.
 
 ### 🎯 Member Team
-- **1**: Moch. Arif Samsul Rizal.
-- **2**: Michael Kondengis.
+- **1**: Moch. Arif Samsul Rizal
+- **2**: Michael Kondengis
 
 
 ---
