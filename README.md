@@ -13,6 +13,7 @@
 ---
 
 ### 🎯 Member Team
+
 - **1**: Moch. Arif Samsul Rizal
 - **2**: Michael Kondengis
 
@@ -37,4 +38,18 @@ Follow these steps to deploy the model and API in Cloud Run:
 ### Cost CC
 <img src="https://drive.google.com/uc?export=view&id=1StBYjmQ2IdpBlHMvN3o7uw0mhVZIXf0D" alt="4" width="auto" height="300">
 
+---
+## API Documentation
+## Pest Prediction
+
+### `POST /api/getPredictionOutput`
+Upload images for pest prediction
+
+**Request Body:**
+- `file`: Pest image file (multipart/form-data)
+
+**Response:**
+  * `pest_type`: Detected pest name
+  
+---
 
