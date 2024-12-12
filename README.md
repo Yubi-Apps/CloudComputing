@@ -27,6 +27,10 @@ Ini merupakan Repositori dari tim Cloud Computing.
 ## 🏁 Deployment
 
 Ikuti langkah-langkah berikut untuk menjalankan deploy model dan API di Cloud Run:
+1. buat app.py, prediction.py, model.h5, requirements.txt dan DockerFile berada dalam satu folder
+2. untuk file model.h5 karena ukuran cukup besar, kami upload menggunakan google drive
+   https://drive.google.com/file/d/1hoQ4Spe5a3aP5SHQNX8UTVzZfLfbv8A-/view?usp=drive_link
+4. jika semua sudah dalam satu folder, bisa menjalankan perintah berikut melalui CLI
 - gcloud builds submit --tag gcr.io/yubi-flask/yubi
 - gcloud run deploy yubi --image gcr.io/yubi-flask/yubi --platform managed --region asia-southeast2 --allow-unauthenticated
 
